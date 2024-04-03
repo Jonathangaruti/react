@@ -74,6 +74,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border-radius: 10px;
   padding: 20px;
+  mix-blend-mode: multiply;
+  border: none;
 }
