@@ -17,7 +17,6 @@ main {
   max-width: 800px;
   margin: 0 auto;
   flex: 1;
-  padding-bottom: 20px;
 }
 .menu {
   margin-top: 1rem;
@@ -67,7 +66,14 @@ p {
 footer {
   font-family: "IBM Plex Mono", monospace;
   background-color: #36c6c6;
-  width: 100%;
   padding: 20px;
   text-align: center;
+}
+
+img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
 }
