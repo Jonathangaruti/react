@@ -3,6 +3,7 @@ ul {
 }
 a {
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -17,10 +18,9 @@ main {
   max-width: 800px;
   margin: 0 auto;
   flex: 1;
-  padding-bottom: 20px;
 }
 .menu {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   background: #98eded;
 }
@@ -28,7 +28,7 @@ main {
 .menu ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 8px;
 }
 
 li {
@@ -67,7 +67,38 @@ p {
 footer {
   font-family: "IBM Plex Mono", monospace;
   background-color: #36c6c6;
-  width: 100%;
   padding: 20px;
   text-align: center;
+}
+
+img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+  mix-blend-mode: multiply;
+  border: none;
+}
+
+.contato {
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mapa {
+
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
 }
